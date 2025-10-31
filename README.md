@@ -1,14 +1,13 @@
 # filter-script
 
 
-wardpdf (folder)->
-ward.py --- demo logic for filtering using PyMuPDF, OCR-pytesseract
+using OCR-pytesseract
 
-FastAPI (folder)--> 
+API (folder)--> 
 for web
     install requirment.txt
-    cd/fastapi
+    cd/API
     bash    uvicorn app:app --reload
     go to http://127.0.0.1:8000/docs
-    click post -> try it out -> upload -> execute
+    click post -> try it out -> upload -> choose pdf or slsx -> execute
 
